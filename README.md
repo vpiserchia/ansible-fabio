@@ -1,7 +1,7 @@
 # Ansible Fabio
 
-Master: [![Build Status](https://travis-ci.org/lobsterdore/ansible-fabio.svg?branch=master)](https://travis-ci.org/lobsterdore/ansible-fabio)
-Develop: [![Build Status](https://travis-ci.org/lobsterdore/ansible-fabio.svg?branch=develop)](https://travis-ci.org/lobsterdore/ansible-fabio)
+Master: [![Build Status](https://travis-ci.org/vpiserchia/ansible-fabio.svg?branch=master)](https://travis-ci.org/vpiserchia/ansible-fabio)
+Develop: [![Build Status](https://travis-ci.org/vpiserchia/ansible-fabio.svg?branch=develop)](https://travis-ci.org/vpiserchia/ansible-fabio)
 
 * [To install](#to-install)
 * [How to use](#how-to-use)
@@ -13,20 +13,18 @@ Installs and configures [Fabio](https://github.com/eBay/fabio).
 
 
 
-
 ## To install
 
 This role has been tested on the following operating systems:
-
-* Centos 6.8
-* Centos 7.3
-* Ubuntu 14.04
-* Ubuntu 16.04
+* --Centos 6.8--
+* --Centos 7.3--
+* --Ubuntu 14.04--
+* --Ubuntu 16.04--
 
 The easiest installation method is via Ansible Galaxy:
 
 ```BASH
-ansible-galaxy install lobsterdore.fabio
+ansible-galaxy install vpiserchia.fabio
 ```
 
 In requirements file:
@@ -35,12 +33,12 @@ In requirements file:
 ---
 # requirements.yml
 
-- src: lobsterdore.fabio
-  version: v1.2
+- src: vpiserchia.fabio
+  version: v1.3
 
 ```
 
-To see available versions please check this roles [Ansible Galaxy page](https://galaxy.ansible.com/lobsterdore/fabio/).
+To see available versions please check this roles [Ansible Galaxy page](https://galaxy.ansible.com/vpiserchia/fabio/).
 
 
 
@@ -125,7 +123,7 @@ make
 To run the tests you will the following prerequisites:
 
 * Docker
-* Python 2.7
+* Python 3.10
 * Python Virtualenv
 * Ruby 2.x
 * Ruby Bundler
